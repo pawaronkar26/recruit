@@ -1,24 +1,24 @@
-# NextRole
+# Recruit
 
-**NextRole** is a modern, full-stack job portal designed to streamline the job application process for both recruiters and candidates. Built with a robust tech stack, it offers a seamless experience for job posting, application management, and candidate tracking.
+**Recruit** is a modern, full-stack job portal designed to simplify the hiring process for recruiters and streamline job applications for candidates. Built with a robust tech stack, it offers an intuitive experience for job posting, application management, and candidate tracking.
 
-🔗 **Live Demo**: [next-role-xi.vercel.app](https://next-role-xi.vercel.app)
+🔗 **Live Demo**: [recruit-puce.vercel.app](https://recruit-puce.vercel.app/)
 
 ---
 
 ## 🚀 Features
 
 - **User Authentication**: Secure sign-up and login functionality using Clerk.
-- **Role-Based Access**: Distinct dashboards and functionalities for recruiters and candidates.
+- **Role-Based Access**: Separate dashboards and features for recruiters and candidates.
 - **Job Management**:
   - Recruiters can post, edit, and delete job listings.
-  - Toggle hiring status between open and closed.
+  - Update job status (open, closed, h).
 - **Application Tracking**:
-  - Candidates can apply to jobs and track their application status.
+  - Candidates can apply to jobs and track application status.
   - Recruiters can view and manage applications for their postings.
 - **Company Profiles**: Recruiters can create and manage company profiles with logos and descriptions.
-- **Saved Jobs**: Candidates can save jobs for future reference.
-- **Responsive Design**: Optimized for both desktop and mobile devices.
+- **Saved Jobs**: Candidates can bookmark jobs for later reference.
+- **Responsive Design**: Fully optimized for desktop and mobile devices.
 
 ---
 
@@ -45,58 +45,5 @@
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/Abhishek-17h/NextRole.git
-   cd NextRole
-   ```
-
-2. **Install dependencies**:
-
-   ```bash
-   npm install
-   ```
-
-3. **Configure environment variables**:
-
-   Create a `.env` file in the root directory and add your Supabase credentials:
-
-   ```env
-   VITE_SUPABASE_URL=your-supabase-url
-   VITE_SUPABASE_ANON_KEY=your-supabase-anon-key
-   ```
-
-4. **Start the development server**:
-
-   ```bash
-   npm run dev
-   ```
-
----
-
-## 📁 Project Structure
-
-```
-NextRole/
-├── public/             # Static assets
-├── src/
-│   ├── api/            # API calls to Supabase
-│   ├── components/     # Reusable UI components
-│   ├── hooks/          # Custom React hooks
-│   ├── pages/          # Page components
-│   ├── App.jsx         # Root component
-│   └── main.jsx        # Entry point
-├── .env                # Environment variables
-├── package.json        # Project metadata and scripts
-└── vite.config.js      # Vite configuration
-```
-
----
-
-## 🙌 Acknowledgements
-
-- [Clerk](https://clerk.dev/) for seamless authentication.
-- [Supabase](https://supabase.com/) for backend services.
-- [Lucide Icons](https://lucide.dev/) for beautiful icons.
-- [React Hook Form](https://react-hook-form.com/) for efficient form handling.
-
----
-
+   git clone https://github.com/OnkarPawar26/recruit.git
+   cd recruit
